@@ -11,19 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('proyectos', function (Blueprint $table) {
-            $table->id();
-            $table->string('nombre');
-            $table->string('financiador')->nullable();
-            $table->date('fecha_inicio')->nullable();
-            $table->date('fecha_fin')->nullable();
+        Schema::create('categorias_emprendimiento', function (Blueprint $table) {
+            $table->id('id_categoria');
+            $table->string('nombre_categoria', 100)->unique();
             $table->timestamps();
         });
     }
 
-  
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
-        Schema::dropIfExists('proyectos');
+        Schema::dropIfExists('categorias_emprendimiento');
     }
 };
