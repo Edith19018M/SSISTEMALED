@@ -18,8 +18,8 @@ class AuthController extends Controller
             'nombre' => 'required|string|max:255',
             'correo' => 'required|string|email|unique:usuarios,correo',
             'contraseña' => 'required|string|min:6|confirmed',
-            'rol_id' => 'required|integer|exists:rols,id_rol',
-            'region_id' => 'required|integer|exists:regions,id_region',
+            'rol_id' => 'required|integer|exists:roles,id_rol',
+            'region_id' => 'required|integer|exists:regiones,id_region',
             'municipio_id' => 'required|integer|exists:municipios,id_municipio'
         ]);
 
