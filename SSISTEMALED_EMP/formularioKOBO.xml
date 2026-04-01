@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>FORMULARIO DE ASESORIA 2025</h:title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <a2La8Lpt8BQwedWvQh2LyL id="a2La8Lpt8BQwedWvQh2LyL">
+          <start/>
+          <end/>
+          <group_bk1tk48>
+            <ID_EMPRENDIMIENTO>E-</ID_EMPRENDIMIENTO>
+            <HORA_INICIO/>
+            <HORA_FINAL/>
+          </group_bk1tk48>
+          <group_as1zx02>
+            <Nombre_del_emprendimiento/>
+            <group_zy1ur84>
+              <Nombre_completo_2/>
+            </group_zy1ur84>
+            <group_it6dj68>
+              <Nombre_completo_3/>
+            </group_it6dj68>
+          </group_as1zx02>
+          <Actividades>
+            <Actividad_001 jr:template="">
+              <Actividad/>
+              <Estado/>
+            </Actividad_001>
+            <Actividad_001>
+              <Actividad/>
+              <Estado/>
+            </Actividad_001>
+          </Actividades>
+          <group_rc7ru68>
+            <Marca_uno/>
+          </group_rc7ru68>
+          <group_di2cf09>
+            <Marca_una_o_varias/>
+            <Otro/>
+          </group_di2cf09>
+          <group_sy3dh18>
+            <Descripci_n/>
+          </group_sy3dh18>
+          <group_gg64u61>
+            <group_xe9us66 jr:template="">
+              <Actividad_002/>
+              <Responsable/>
+              <Fecha/>
+            </group_xe9us66>
+            <group_xe9us66>
+              <Actividad_002/>
+              <Responsable/>
+              <Fecha/>
+            </group_xe9us66>
+            <Observaciones/>
+          </group_gg64u61>
+          <meta>
+            <instanceID/>
+          </meta>
+        </a2La8Lpt8BQwedWvQh2LyL>
+      </instance>
+      <instance id="aw8cb05">
+        <root>
+          <item>
+            <name>suspendido</name>
+            <label>Suspendido</label>
+          </item>
+          <item>
+            <name>espera</name>
+            <label>Espera</label>
+          </item>
+          <item>
+            <name>no_realizado</name>
+            <label>No realizado</label>
+          </item>
+          <item>
+            <name>en_proceso</name>
+            <label>En proceso</label>
+          </item>
+          <item>
+            <name>ejecutado</name>
+            <label>Ejecutado</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="yk5wp61">
+        <root>
+          <item>
+            <name>plan_de_negocio</name>
+            <label>PLAN DE NEGOCIO</label>
+          </item>
+          <item>
+            <name>at__productivo</name>
+            <label>AT. PRODUCTIVO</label>
+          </item>
+          <item>
+            <name>at__comercial</name>
+            <label>AT. COMERCIAL</label>
+          </item>
+          <item>
+            <name>at__de_gestion</name>
+            <label>AT. DE GESTION</label>
+          </item>
+          <item>
+            <name>mentoring</name>
+            <label>MENTORING</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="un54p23">
+        <root>
+          <item>
+            <name>identificaci_n_de_producto_servicio</name>
+            <label>Identificación de producto/servicio</label>
+          </item>
+          <item>
+            <name>producci_n_de_producto_servicio</name>
+            <label>Producción de producto/servicio</label>
+          </item>
+          <item>
+            <name>producci_n_mas_limpia</name>
+            <label>Producción mas limpia</label>
+          </item>
+          <item>
+            <name>envasado_o_etiiquetado</name>
+            <label>Envasado o etiquetado</label>
+          </item>
+          <item>
+            <name>gestion_de_personal</name>
+            <label>Gestion de personal</label>
+          </item>
+          <item>
+            <name>estudio_de_mercado</name>
+            <label>Estudio de mercado </label>
+          </item>
+          <item>
+            <name>articulaci_n_comercial</name>
+            <label>Articulación comercial</label>
+          </item>
+          <item>
+            <name>comercio_electr_nico</name>
+            <label>Comercio electrónico</label>
+          </item>
+          <item>
+            <name>marketing</name>
+            <label>Marketing</label>
+          </item>
+          <item>
+            <name>impuestos_tributaci_n</name>
+            <label>Impuestos-Tributación</label>
+          </item>
+          <item>
+            <name>capital_semilla</name>
+            <label>Capital Semilla</label>
+          </item>
+          <item>
+            <name>formalizaci_n_y_normativa</name>
+            <label>Formalización y normativa</label>
+          </item>
+          <item>
+            <name>contabilidad</name>
+            <label>Contabilidad</label>
+          </item>
+          <item>
+            <name>calculo_de_ingresos_y_costos</name>
+            <label>Calculo de ingresos y costos</label>
+          </item>
+          <item>
+            <name>calculo_de_inversi_n</name>
+            <label>Calculo de inversión</label>
+          </item>
+          <item>
+            <name>an_lisis_financiero_eeff</name>
+            <label>Análisis financiero(EEFF)</label>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/start" jr:preload="timestamp" type="dateTime" jr:preloadParams="start"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/end" jr:preload="timestamp" type="dateTime" jr:preloadParams="end"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/ID_EMPRENDIMIENTO" type="string" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/HORA_INICIO" type="time" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/HORA_FINAL" type="time" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/Nombre_del_emprendimiento" type="string" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_zy1ur84" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_zy1ur84/Nombre_completo_2" type="string" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_it6dj68" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_it6dj68/Nombre_completo_3" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/Actividades" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001/Actividad" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001/Estado" type="string" relevant=" ../Actividad  != ''" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_rc7ru68" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_rc7ru68/Marca_uno" type="string" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09/Marca_una_o_varias" type="string" required="true()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09/Otro" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_sy3dh18" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_sy3dh18/Descripci_n" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Actividad_002" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Responsable" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Fecha" type="date" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/Observaciones" type="string" required="false()"/>
+      <bind nodeset="/a2La8Lpt8BQwedWvQh2LyL/meta/instanceID" type="string" readonly="true()" jr:preload="uid"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48">
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/ID_EMPRENDIMIENTO">
+        <label>ID_EMPRENDIMIENTO</label>
+      </input>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/HORA_INICIO">
+        <label>HORA INICIO</label>
+      </input>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_bk1tk48/HORA_FINAL">
+        <label>HORA FINAL</label>
+      </input>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02">
+      <label>REGISTRO DE ASESORIA</label>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/Nombre_del_emprendimiento">
+        <label>Nombre del emprendimiento</label>
+      </input>
+      <group appearance="field-list" ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_zy1ur84">
+        <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_zy1ur84/Nombre_completo_2">
+          <label>Nombre completo 2</label>
+        </input>
+      </group>
+      <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_it6dj68">
+        <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_as1zx02/group_it6dj68/Nombre_completo_3">
+          <label>Nombre completo 3</label>
+        </input>
+      </group>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/Actividades">
+      <label>SEGUIMIENTO A ASESORIA ANTERIOR</label>
+      <group ref="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001">
+        <label>Descripción</label>
+        <repeat nodeset="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001" appearance="field-list">
+          <input ref="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001/Actividad">
+            <label>Actividad</label>
+          </input>
+          <select1 appearance="horizontal-compact" ref="/a2La8Lpt8BQwedWvQh2LyL/Actividades/Actividad_001/Estado">
+            <label>Estado</label>
+            <itemset nodeset="instance('aw8cb05')/root/item">
+              <value ref="name"/>
+              <label ref="label"/>
+            </itemset>
+          </select1>
+        </repeat>
+      </group>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_rc7ru68">
+      <label>TIPO DE ASESORIA</label>
+      <select1 appearance="horizontal" ref="/a2La8Lpt8BQwedWvQh2LyL/group_rc7ru68/Marca_uno">
+        <label>Marca uno</label>
+        <itemset nodeset="randomize(instance('yk5wp61')/root/item)">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select1>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09">
+      <label>TEMATICA</label>
+      <select appearance="horizontal-compact" ref="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09/Marca_una_o_varias">
+        <label>Marca una o varias</label>
+        <itemset nodeset="instance('un54p23')/root/item">
+          <value ref="name"/>
+          <label ref="label"/>
+        </itemset>
+      </select>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_di2cf09/Otro">
+        <label>Otro</label>
+      </input>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_sy3dh18">
+      <label>BREVE DESCRIPCION DE LA ASESORIA DESARROLLADA</label>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_sy3dh18/Descripci_n">
+        <label>Descripción</label>
+      </input>
+    </group>
+    <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61">
+      <label>COMPROMISOS</label>
+      <group ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66">
+        <label/>
+        <repeat nodeset="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66">
+          <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Actividad_002">
+            <label>Actividad</label>
+          </input>
+          <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Responsable">
+            <label>Responsable</label>
+          </input>
+          <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/group_xe9us66/Fecha">
+            <label>Fecha</label>
+          </input>
+        </repeat>
+      </group>
+      <input ref="/a2La8Lpt8BQwedWvQh2LyL/group_gg64u61/Observaciones">
+        <label>Observaciones</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>
